@@ -1,0 +1,86 @@
+body {
+    margin: 0 auto;
+    max-width: 800px;
+    text-align: center;
+    background: #191919;
+}
+
+p, sub {
+    color: #ECDBBA;
+}
+
+h1, h2, h3 {
+    margin-bottom: 0;
+    color: #ECDBBA;
+}
+
+.block-1 {
+    background: #2D4263;
+    padding: 1em;
+}
+
+.block-2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.sub {
+    display: flex;
+    justify-content: space-around;
+}
+
+.block-3 {
+    background: #2D4263;
+    padding: 2em;
+}
+
+.qr-code {
+    width: 20%;
+}
+
+.dollartimes-pb {
+    margin-top: 20px;
+    font-family: arial;
+    width: 100%; 
+    box-sizing: border-box; 
+    clear:both;
+    padding: 2em;
+}
+
+.dollartimes-pb-title {
+    color: #ECDBBA;
+    font-size:16px; 
+    overflow: hidden;
+}
+
+.dollartimes-pb-frame {
+    border-radius: 5px; 
+    background-color: #ECDBBA;
+    padding: 0px;
+    border: 1px solid #000; 
+    height: 30px; 
+    margin: 2px 0 1px;
+    color: rgb(200, 75, 49);
+}
+
+.dollartimes-pb-fill {
+    /* width attribute is % completetion */
+    /* ((amount donated / goal amount) * 100) */
+    width: 0%; 
+    height: 100%; 
+    margin-top: 0px; 
+    background: repeating-linear-gradient(-45deg, rgba(200, 75, 49,1), rgba(200, 75, 49,1) 8px, rgba(200, 75, 49,0.8) 8px, rgba(200, 75, 49,0.8) 16px);
+}
+
+.dollartimes-pb-l-caption {
+    color: #ECDBBA;
+    float: left; 
+    font-size: 16px;
+}
+
+.dollartimes-pb-r-caption {
+    color: #ECDBBA;
+    float: right; 
+    font-size: 16px;
+    margin-bottom: 20px;
+}
