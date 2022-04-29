@@ -5,8 +5,12 @@ body {
     background: rgba(92,127,152,1);
 }
 
-p, sub {
+p{
     color: black;
+}
+
+.white-call {
+    color: white;
 }
 
 h1, h2, h3 {
@@ -45,6 +49,7 @@ a:active {
 
 .no-margin {
     margin-bottom: 0.5em;
+    color: white;
 }
 
 .sub {
@@ -73,7 +78,6 @@ a:active {
     margin-bottom: 2em;
     border: 5px solid white;
     border-radius: 4px;
-    box-shadow: 5px 10px;
 }
 
 .dollartimes-pb {
@@ -86,7 +90,7 @@ a:active {
 }
 
 .dollartimes-pb-title {
-    color: rgba(124,51,79,1);
+    color: white;
     font-size:32px; 
     overflow: hidden;
 }
@@ -97,7 +101,7 @@ a:active {
     padding: 0px;
     border: 1px solid #000; 
     height: 30px; 
-    margin: 2px 0 1px;
+    margin: 1.2em 0 .25em;
     color: rgb(76, 175, 80);
 }
 
@@ -111,14 +115,14 @@ a:active {
 }
 
 .dollartimes-pb-l-caption {
-    color: black;
+    color: white;
     float: left; 
     font-size: 16px;
     font-weight: bold;
 }
 
 .dollartimes-pb-r-caption {
-    color: black;
+    color: white;
     float: right; 
     font-size: 16px;
     font-weight: bold;
