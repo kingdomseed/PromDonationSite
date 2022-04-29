@@ -18,6 +18,15 @@ h1, h2, h3 {
     color: rgba(124,51,79,1);
 }
 
+footer img {
+    width: 5%;
+    margin: 0 1em;
+}
+
+footer {
+    padding: 2em;
+}
+
 a:link { 
     text-decoration: none; 
     color: rgba(92,127,152,1);
@@ -60,7 +69,7 @@ a:active {
 .block-3 {
     background: rgba(237,228,216,1);
     padding: 2em;
-    border-radius: 10px 10px 0px 0px;
+    border-radius: 10px;
 }
 
 .google-text {
