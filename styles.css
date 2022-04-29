@@ -2,20 +2,21 @@ body {
     margin: 0 auto;
     max-width: 800px;
     text-align: center;
-    background: #191919;
+    background: rgba(92,127,152,1);
 }
 
 p, sub {
-    color: #ECDBBA;
+    color: black;
 }
 
 h1, h2, h3 {
     margin-bottom: 0;
-    color: #ECDBBA;
+    color: rgba(124,51,79,1);
 }
 
 a:link { 
     text-decoration: none; 
+    color: rgba(92,127,152,1);
 }
 
 a:visited { 
@@ -24,7 +25,7 @@ a:visited {
 
 a:hover { 
     text-decoration: none;
-    color: rgba(200, 75, 49,1);
+    color: rgb(42, 65, 82);
 }
 
 a:active { 
@@ -32,13 +33,18 @@ a:active {
 }
 
 .block-1 {
-    background: #2D4263;
+    background: rgba(237,228,216,1);
     padding: 1em;
+    border-radius: 0px 0px 10px 10px;
 }
 
 .block-2 {
     display: flex;
     justify-content: space-around;
+}
+
+.no-margin {
+    margin-bottom: 0.5em;
 }
 
 .sub {
@@ -47,12 +53,27 @@ a:active {
 }
 
 .block-3 {
-    background: #2D4263;
+    background: rgba(237,228,216,1);
     padding: 2em;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.google-text {
+    margin-bottom: 0;
 }
 
 .qr-code {
     width: 20%;
+    border-radius: 4px;
+    margin-bottom: 1em;
+}
+
+.center-image {
+    width: 80%;
+    margin-bottom: 2em;
+    border: 5px solid white;
+    border-radius: 4px;
+    box-shadow: 5px 10px;
 }
 
 .dollartimes-pb {
@@ -65,19 +86,19 @@ a:active {
 }
 
 .dollartimes-pb-title {
-    color: #ECDBBA;
-    font-size:16px; 
+    color: rgba(124,51,79,1);
+    font-size:32px; 
     overflow: hidden;
 }
 
 .dollartimes-pb-frame {
     border-radius: 5px; 
-    background-color: #ECDBBA;
+    background-color: rgba(124,51,79,1);
     padding: 0px;
     border: 1px solid #000; 
     height: 30px; 
     margin: 2px 0 1px;
-    color: rgb(200, 75, 49);
+    color: rgb(76, 175, 80);
 }
 
 .dollartimes-pb-fill {
@@ -86,18 +107,20 @@ a:active {
     width: 0%; 
     height: 100%; 
     margin-top: 0px; 
-    background: repeating-linear-gradient(-45deg, rgba(200, 75, 49,1), rgba(200, 75, 49,1) 8px, rgba(200, 75, 49,0.8) 8px, rgba(200, 75, 49,0.8) 16px);
+    background: repeating-linear-gradient(-45deg, rgba(76, 175, 80,1), rgba(76, 175, 80,1) 8px, rgba(76, 175, 80,0.8) 8px, rgba(76, 175, 80,0.8) 16px);
 }
 
 .dollartimes-pb-l-caption {
-    color: #ECDBBA;
+    color: black;
     float: left; 
     font-size: 16px;
+    font-weight: bold;
 }
 
 .dollartimes-pb-r-caption {
-    color: #ECDBBA;
+    color: black;
     float: right; 
     font-size: 16px;
+    font-weight: bold;
     margin-bottom: 20px;
 }
